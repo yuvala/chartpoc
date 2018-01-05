@@ -3,9 +3,11 @@ module.exports = function (grunt) {
         sass: {
             dist: {
                 files: {
-                    'public/stylesheets/style.css': 'sass/style.scss'
+                    'public/stylesheets/style.css': 'sass/main.scss'
                 }
             }
+            
+            
         },
         watch: {
             source: {
@@ -16,8 +18,10 @@ module.exports = function (grunt) {
                 }
             }
         }
+        
     });
 
+   grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-sass');
-    grunt.registerTask('default', ['sass']);
+    grunt.registerTask('default', ['watch']);
 };
