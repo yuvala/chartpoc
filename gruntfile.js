@@ -9,6 +9,7 @@ module.exports = function (grunt) {
             
             
         },
+        
         watch: {
             source: {
                 files: ['sass/**/*.scss'],
