@@ -1,3 +1,6 @@
-'use strict';
  
-angular.module('myApp', ['brainlab.analytics']);
+    'use strict';
+    angular.module('myApp', ['ngRoute', 'brainlab.analytics']);
+ 
+
+ 
