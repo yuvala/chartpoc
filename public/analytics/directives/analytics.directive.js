@@ -8,7 +8,7 @@ angular.module('brainlab.analytics', [])
                 data: '='
             },
             link: function (scope, element, attr) {
-                d3.se
+                d3.select(element[0]);
                 console.log(scope.data);
             }
         };
