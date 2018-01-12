@@ -1,6 +1,6 @@
- 
-    'use strict';
-    angular.module('myApp', ['ngRoute', 'brainlab.analytics']);
+console.log('yuval'); 
+angular.module('myApp', ['ngRoute', 'brainlab.analytics']);
+angular.module('brainlab.analytics', []);
  
 
  
