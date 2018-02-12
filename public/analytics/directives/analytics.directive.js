@@ -1,4 +1,4 @@
-angular.module('brainlab.analytics', [])
+angular.module('brainlab.analytics')
     .directive('barChart', ['D3Service', function (D3Service) {
         return {
             restrict: 'EA', //E = element, A = attribute, C = class, M = comment     

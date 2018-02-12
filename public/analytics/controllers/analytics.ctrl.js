@@ -1,5 +1,5 @@
-angular.module('brainlab.analytics').controller('ActionLogController', [
-    '$scope', 'actionLogSvc',
+angular.module('brainlab.analytics')
+.controller('ActionLogController', ['$scope', 'actionLogSvc',
     function ($scope, actionLogSvc) {
         ctrl = this;
         ctrl.actionLogs;

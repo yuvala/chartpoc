@@ -1,4 +1,4 @@
-angular.module('d3', [])
+angular.module('brainlab.analytics')
   .factory('D3Service', ['$document', '$q', '$rootScope',
     function ($document, $q, $rootScope) {
       var d = $q.defer();

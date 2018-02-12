@@ -1,4 +1,5 @@
-angular.module('brainlab.analytics').service('analyticsSvc', [  function () {
+angular.module('brainlab.analytics')
+.service('analyticsSvc', [  function () {
     
     var actionLogs;
     this.getList = function (succsessCallBack) {
