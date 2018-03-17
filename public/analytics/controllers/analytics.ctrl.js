@@ -1,9 +1,9 @@
 angular.module('brainlab.analytics')
-.controller('ActionLogController', ['$scope', 'actionLogSvc',
-    function ($scope, actionLogSvc) {
+.controller('ActionLogController', ['$scope', 'actionLogSvc','mock',
+    function ($scope, actionLogSvc,mock) {
         ctrl = this;
         ctrl.actionLogs;
-
+        ctrl.data= {male:60, female:40};
         function getActionLog() {
             actionLogSvc.getList(function (data) {
                 //ctrl.actionLogs = angular.copy(data);

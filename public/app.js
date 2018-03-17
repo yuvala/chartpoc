@@ -1,6 +1,6 @@
  
 //angular.module('d3');
-angular.module('brainlab.analytics',[]);
+var app = angular.module('brainlab.analytics',[]);
 
 // angular.module('myApp', ['ngRoute','brainlab.analytics','d3']); 
  
